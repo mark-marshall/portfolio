@@ -21,28 +21,28 @@ const Project = ({
         <div className="stack">{stack}</div>
         <nav>
           {siteLink ? (
-            <a href={siteLink} target="_blank">
+            <a href={siteLink} target="_blank" rel="noopener noreferrer">
               Site
             </a>
           ) : (
             <></>
           )}
           {githubLink ? (
-            <a href={githubLink} target="_blank">
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
               Github
             </a>
           ) : (
             <></>
           )}
           {demoLink ? (
-            <a href={demoLink} target="_blank">
+            <a href={demoLink} target="_blank" rel="noopener noreferrer">
               Demo
             </a>
           ) : (
             <></>
           )}
           {phLink ? (
-            <a href={phLink} target="_blank">
+            <a href={phLink} target="_blank" rel="noopener noreferrer">
               Product Hunt
             </a>
           ) : (
