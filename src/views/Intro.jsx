@@ -9,8 +9,8 @@ const Intro = () => {
   return (
     <StyledIntro>
       <div>
-        Hi, I'm Mark. I'm interested in lovingly-crafted web projects that
-        delight and empower users.
+        Hi, I'm Mark. I'm interested in web projects that
+        delight and empower their users.
       </div>
       <nav>
         <a
