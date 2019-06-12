@@ -50,8 +50,8 @@ const StyledIntro = styled.div`
   @media (max-width: 900px) {
     width: 100%;
     margin: auto;
-    padding-top: 15vh;
-    height: 50vh;
+    padding: 25% 5%;
+    height: 50%;
     text-align: center;
   }
 
@@ -70,6 +70,10 @@ const StyledIntro = styled.div`
 
     @media (max-width: 800px) {
       font-size: 1.65rem;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
     }
   }
 
