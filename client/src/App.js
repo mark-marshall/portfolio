@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
+import styled from 'styled-components';
 
-function App() {
+import Intro from './views/Intro';
+import Projects from './views/Projects';
+
+const App = () => {
+  const [project, setProject] = useState(false);
+
   return (
-    <div className="App">
-      hello world
-    </div>
+    <StyledApp>
+      <Intro />
+      <Projects />
+    </StyledApp>
   );
-}
+};
+
+const StyledApp = styled.div`
+  display: flex;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+`;
 
 export default App;
