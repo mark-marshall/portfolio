@@ -10,7 +10,7 @@ const Intro = () => {
     <StyledIntro>
       <div>
         Hi, I'm Mark. I'm interested in web projects that
-        delight and empower their users.
+        delight and empower users.
       </div>
       <nav>
         <a
