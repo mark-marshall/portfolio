@@ -36,7 +36,7 @@ const Project = ({
           )}
           {githubLink ? (
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
-              Github
+              GitHub
             </a>
           ) : (
             <></>
@@ -71,7 +71,7 @@ const Project = ({
 const StyledProject = styled.div`
   width: 46%;
   height: 50%;
-  padding: 3% 0;
+  padding: 1% 0;
 
   @media (max-width: 1200px) {
     padding: 8% 0;
@@ -99,9 +99,10 @@ const StyledProject = styled.div`
   }
 
   a {
-    color: #00d2be;
+    color: #008080;
     text-decoration: none;
     padding-right: 5%;
+    font-weight: bold;
 
     &:hover {
       color: black;

@@ -55,23 +55,20 @@ const Projects = () => {
 
 const StyledProjects = styled.div`
   margin auto;
-  width: 50%;
+  height: 100vh;
+  width: 55%;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  padding: 0 1.5%;
+  padding: 1%;
   justify-content: space-between;
 
-  @media (max-width: 1000px) {
-    width: 60%;
-  }
-
   @media (max-width: 900px) {
-    width: 85%;
-    margin: auto;
+    width: 90%;
   }
 
   @media (max-width: 700px) {
+    height: 100%
     width: 100%;
     padding-top: 8%;
   }

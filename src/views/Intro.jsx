@@ -9,8 +9,8 @@ const Intro = () => {
   return (
     <StyledIntro>
       <div>
-        Hi, I'm Mark. I'm interested in web projects that empower good people to
-        do good things.
+        Hi, I'm Mark. I'm interested in lovingly-crafted web projects that
+        delight and empower users.
       </div>
       <nav>
         <a
@@ -28,7 +28,7 @@ const Intro = () => {
           <img src={ln} alt="linkedIn" />
         </a>
         <a href="mailto:mark.marshallgp@gmail.com">
-          <img src={gm} alt="email" />
+          <img src={gm} alt="email" target="_top" />
         </a>
       </nav>
     </StyledIntro>
@@ -37,20 +37,15 @@ const Intro = () => {
 
 const StyledIntro = styled.div`
   background-color: black;
-  width: 50%;
+  width: 40%;
   height: 100vh;
-  padding: 8%;
+  padding: 8% 4%;
   padding-top: 42vh;
-
-  @media (max-width: 1000px) {
-    width: 40%;
-    padding-top: 42vh;
-  }
 
   @media (max-width: 900px) {
     width: 100%;
     margin: auto;
-    padding: 25% 5%;
+    padding: 25% 10%;
     height: 50%;
     text-align: center;
   }
