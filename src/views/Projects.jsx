@@ -25,7 +25,7 @@ const Projects = () => {
         desc="Keeping plants luscious with watering alerts right to gardener's phones."
         stack="HTML | LESS | JavaScript | Git"
         src={wmp}
-        siteLink="https://priceless-agnesi-7a8091.netlify.com/"
+        siteLink="http://www.watermyplants.co/"
         githubLink="https://github.com/mark-marshall/Water-My-Plants"
       />
       <Project
