@@ -40,7 +40,7 @@ const Projects = () => {
       />
       <Project
         title="Mavens of London - Digital Research"
-        desc="Looking at the future of Formula One in the US using online data."
+        desc="A look at the future of Formula One in the US, through online data."
         stack="Brandwatch | AdWords | Python"
         src={f1}
         siteLink=""
