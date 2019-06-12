@@ -14,7 +14,14 @@ const Project = ({
 }) => {
   return (
     <StyledProject>
-      <ImageDiv src={src} />
+      <a
+        href={siteLink ? siteLink : dlLink}
+        target={siteLink ? '_blank' : null}
+        rel={siteLink ? 'noopener noreferrer' : null}
+        download={siteLink ? false : true}
+      >
+        <ImageDiv src={src} />
+      </a>
       <InteriorStyled>
         <h1>{title}</h1>
         <div>{desc}</div>
