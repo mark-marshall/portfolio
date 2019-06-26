@@ -43,7 +43,7 @@ const Projects = () => {
         desc="A look at the future of Formula One in the US, through online data."
         stack="Brandwatch | AdWords | Python"
         src={f1}
-        siteLink=""
+        siteLink="https://www.mavens.us/knowledge-base/formula-one"
         githubLink=""
         demoLink=""
         phLink=""
